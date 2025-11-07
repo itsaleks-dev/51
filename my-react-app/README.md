@@ -1,16 +1,67 @@
-# React + Vite
+## React Demo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A training project created to demonstrate working with popular React libraries and a custom interface based on **styled-components**.
 
-Currently, two official plugins are available:
+## Project goal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application shows how to integrate modern React libraries into a Vite project  
+while creating your own interactive components without external dependencies.
 
-## React Compiler
+## Technologies used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**React 19 + Vite** | Modern development environment for SPA |
+**styled-components** | Styling components via CSS-in-JS |
+**React Toastify** | Displaying notifications (success, error, warning) |
+**React Idle Timer** | Tracking user inactivity |
+**React Icons** | Using popular icons (Font Awesome) |
+**React Colorful** | Real-time color selection |
+**Custom Credit Card Component** | Custom card implementation without external libraries |
 
-## Expanding the ESLint configuration
+## Structure project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+my-react-app/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── IconComponent.jsx
+│   │   ├── ToastNotification.jsx
+│   │   ├── IdleTimerComponent.jsx
+│   │   ├── CreditCardDemo.jsx
+│   │   └── ColorPickerDemo.jsx
+│   ├── styles/
+│   │   ├── GlobalStyle.js
+│   │   └── theme.js
+
+## Installation and launch
+
+Cloning a repository
+git clone https: https://github.com/itsaleks-dev/51
+cd my-react-app
+npm install
+npm run dev
+npm run build
+
+## Demonstration of functionality
+
+**Idle Timer**
+Tracks user inactivity (displays a warning after 10 seconds).
+Features a visual timer and a reset button.
+
+**Icons**
+Use of icons from react-icons/fa (React, Bell, User, Cart).
+
+**Credit Card**
+
+Interactive card with number input —
+created by hand using styled-components, without external libraries.
+
+**Color Picker**
+
+Demonstration of the react-colorful library for color selection.
+
+**Toastify**
+
+Displays messages of types success, error, warning.
+
+## Demo
+https://51-gamma.vercel.app
