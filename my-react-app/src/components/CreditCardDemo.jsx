@@ -2,7 +2,7 @@ import { useState } from "react";
 import Cards from "react-credit-cards-2";
 import styled from "styled-components";
 
-import "react-credit-cards-2/dist/es/styled-compiled.css";
+import "react-credit-cards-2/dist/es/styles-compiled.css";
 
 const Wrapper = styled.div`
     display: flex;

@@ -1,4 +1,4 @@
-import { FaBell, FaShoppingCart, FaUserAlt } from "react-icons.fa";
+import { FaBell, FaShoppingCart, FaUserAlt } from "react-icons/fa";
 import styled from "styled-components";
 
 const IconsWrapper = styled.div`

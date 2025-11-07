@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { GlobalStyle } from "./styles/GlobalStyle";
 import { theme } from "./styles/theme";
 
-import { Header } from "./components/Header";
+import Header from "./components/Header";
 import IconComponent from "./components/IconComponent";
 import ToastNotification from "./components/ToastNotification";
 import IdleTimerComponent from "./components/IdleTimerComponent";
